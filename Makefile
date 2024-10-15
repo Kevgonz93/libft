@@ -67,7 +67,7 @@ bonus_complete: $(OBJS_BONUS)
 
 %.o: %.c
 		$(CC) $(CFLAGS) -c $< -o $@
-ww
+
 clean:
 	rm -f $(OBJS) $(OBJS_BONUS)
 	rm -f bonus_complete
