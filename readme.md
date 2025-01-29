@@ -72,7 +72,6 @@ Asegúrate de agregar el archivo libft.a a tu proyecto y compilarlo junto con el
 
 Se recomienda crear un archivo de prueba test.c donde puedas incluir el siguiente código y comprobar la ejecución de las funciones implementadas:
 
-    ```bash
     #include "libft.h"
 
     int main() 
@@ -82,7 +81,6 @@ Se recomienda crear un archivo de prueba test.c donde puedas incluir el siguient
         printf("Uppercase: %s\n", ft_strtoupper(str));
         return 0;
     }
-    ```
 
 ---
 
